@@ -32,7 +32,7 @@ void AverColumns(int[,] array)
             sum += array[i, j];
         }
         average[j] = (double) sum / array.GetLength(0); 
-        Math.Round(average[j], 2);       
+        Math.Round(average[j], 1);       
         Console.Write($"{average[j], 6}");
     }
 }
